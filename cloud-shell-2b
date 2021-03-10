@@ -1,0 +1,4 @@
+gsutil cp gs://cloud-training/bdml/v2.0/model/train_and_apply.py train_and_apply.py
+cloudshell edit train_and_apply.py
+
+gsutil cp train_and_apply.py gs://$DEVSHELL_PROJECT_ID
